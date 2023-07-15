@@ -2473,6 +2473,10 @@ nav a:hover {
 	height: calc(1.8 * 100vw);
 }
 
+.container .section-two .section-two-images-row-four .img8 .pic1 img{
+	margin-top:calc((-0.6667 * 100vw) + 80px);
+}
+
 .container .section-two .section-two-images-row-four .caption1 p {
 	font-size: 12.5px;
 }
