@@ -16,7 +16,10 @@ body{
 	font-size: 14px;
 	color: #000000;
 	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow-x: hidden!important;
+	width: auto!important;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
 }
 
 .container{
@@ -1470,6 +1473,7 @@ nav a:hover {
 	margin-left:20vw;
 	height: calc((3.7 * 80vw) + 20vh);
 	width:80vw;
+	overflow: hidden;
 }
 .container .section-two h5 {
 	margin-left:-30vw;
@@ -2411,6 +2415,7 @@ nav a:hover {
 
 .container .section-four p {
 	font-size: 12px;
+	width: 80vw;
 }
 
 
